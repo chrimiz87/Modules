@@ -1,0 +1,15 @@
+export module Point;
+       
+export class Point{
+public:
+  Point() {}
+  Point(double x, double y) : m_x(x), m_y(y) {}
+  double getx() { return m_x; }
+  double gety() { return m_y; }
+
+
+private:
+  double m_x;
+  double m_y;
+};
+
